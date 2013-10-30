@@ -1,0 +1,1 @@
+!function(a){var b=a("#fileupload");b.fileupload({drop:function(a,b){var c=b.files[0],d=new FileReader;d.onload=function(){var a=CryptoJS.SHA1(d.result);alert(a)},d.readAsBinaryString(c)}})}(jQuery);
